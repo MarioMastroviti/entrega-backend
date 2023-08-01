@@ -89,10 +89,10 @@ const main = async() => {
     
     const productos = new Contenedor("productos.txt")
 
-    /*const id = await productos.guardar({
+    const id = await productos.guardar({
         titulo: "producto 3 ", precio: 2500,
         
-    })*/
+    })
    
 
     const todosObjetos = await productos.obtenerTodo()

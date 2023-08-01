@@ -8,6 +8,14 @@ const contenedor = require("./contenedor");
 const port = 8080
 
 
+
+    
+    const productos = new contenedor("productos.txt")
+
+
+
+
+
 app.get("/api/productos", async(req,res) => {
     const todosProductos = await contenedor.obtenerTodosObjetos()
     res.json(todosProductos)
@@ -30,4 +38,3 @@ const generateRandom = (min, max) => {
 app.listen(port , () => {
     console.log('Escuchando el puerto 8080')
 });
-
