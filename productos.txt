@@ -1,13 +1,13 @@
 [
   {
     "id": 1,
-    "titulo": "producto ",
-    "precio": 500
+    "titulo": "producto 3 ",
+    "precio": 2500
   },
   {
     "id": 2,
-    "titulo": "producto 2 ",
-    "precio": 1500
+    "titulo": "producto 3 ",
+    "precio": 2500
   },
   {
     "id": 3,
@@ -61,91 +61,11 @@
   },
   {
     "id": 13,
-    "titulo": "producto 10 ",
+    "titulo": "producto 3 ",
     "precio": 2500
   },
   {
     "id": 14,
-    "titulo": "producto 10 ",
-    "precio": 2500
-  },
-  {
-    "id": 15,
-    "titulo": "producto 10 ",
-    "precio": 2500
-  },
-  {
-    "id": 16,
-    "titulo": "producto 10 ",
-    "precio": 2500
-  },
-  {
-    "id": 17,
-    "titulo": "producto 10 ",
-    "precio": 2500
-  },
-  {
-    "id": 18,
-    "titulo": "producto 10 ",
-    "precio": 2500
-  },
-  {
-    "id": 19,
-    "titulo": "producto 10 ",
-    "precio": 2500
-  },
-  {
-    "id": 20,
-    "titulo": "producto 10 ",
-    "precio": 2500
-  },
-  {
-    "id": 21,
-    "titulo": "producto 10 ",
-    "precio": 2500
-  },
-  {
-    "id": 22,
-    "titulo": "producto 3 ",
-    "precio": 2500
-  },
-  {
-    "id": 23,
-    "titulo": "producto 3 ",
-    "precio": 2500
-  },
-  {
-    "id": 24,
-    "titulo": "producto 3 ",
-    "precio": 2500
-  },
-  {
-    "id": 25,
-    "titulo": "producto 3 ",
-    "precio": 2500
-  },
-  {
-    "id": 26,
-    "titulo": "producto 3 ",
-    "precio": 2500
-  },
-  {
-    "id": 27,
-    "titulo": "producto 3 ",
-    "precio": 2500
-  },
-  {
-    "id": 28,
-    "titulo": "producto 3 ",
-    "precio": 2500
-  },
-  {
-    "id": 29,
-    "titulo": "producto 3 ",
-    "precio": 2500
-  },
-  {
-    "id": 30,
     "titulo": "producto 3 ",
     "precio": 2500
   }

@@ -2,31 +2,35 @@ const fs = require('fs')
 const express =  require('express')
 const app = express();
 
-const contenedor = require("./contenedor");
+const Contenedor = require("./contenedor");
 
 
-const port = 8080
+const PORT = 8080;
+
+const productos = new Contenedor("productos.txt");
 
 
-
-    
-    const productos = new contenedor("productos.txt")
+    const id = productos.guardar({
+        titulo: "producto 3 ", precio: 2500,
+        })
+   
+   
 
 
 
 
 
 app.get("/api/productos", async(req,res) => {
-    const todosProductos = await contenedor.obtenerTodosObjetos()
+    const todosProductos = await productos.obtenerTodosObjetos()
     res.json(todosProductos)
 });
 
 app.get("/api/productoRandom", async(req,res) => {
-    const todosProductos = await contenedor.obtenerTodosObjetos()
+    const todosProductos = await productos.obtenerTodosObjetos()
     const maxId = todosProductos.length;
 
     const randomNum = generateRandom(1, maxId)
-    const randomProduct = await contenedor.obtenerPorId(randomNum)
+    const randomProduct = await productos.obtenerPorId(randomNum)
     res.send(randomProduct)
 });
 
@@ -35,6 +39,6 @@ const generateRandom = (min, max) => {
     return Math.floor((Math.random() * (max+1 -min)) + min)
 }
 
-app.listen(port , () => {
-    console.log('Escuchando el puerto 8080')
+app.listen(PORT , () => {
+    console.log(`Escuchando el puerto ${PORT}`)
 });
